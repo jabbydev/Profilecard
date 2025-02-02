@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <img src="Images/kilo.jpg" alt="Profile Picture" class="profilePicture" data-testid="profilePicture">
+        </div>
+        <div class="card-body">
+            <h2 class="fullName" data-testid="fullName">Oluwaseun Abiodun</h2>
+            <p class="jobTitle" data-testid="jobTitle">Frontend Developer</p>
+            <p class="shortBio" data-testid="shortBio">
+                An Intuitive Frontend Developer who is passionate about creating outstanding user-experience and visually appealing websites. Experienced in HTML, CSS, JavaScript, 
+                and some modern web frameworks. I found learning to be an interesting process to creative innovation, which leaves me with an obsession for growth and creativity</p>
+        </div>
+        <div class="card-footer">
+            <div class="contact-info">
+                <p class="emailAddress" data-testid="emailAddress"><i class="fa fa-envelope-o"></i>theonlyseunabiodun@gmail.com</p>
+                <p class="currentLocation" data-testid="currentLocation"><i class="fa fa-map-marker"></i>Lagos, Nigeria</p>
+            </div>
+            <div class="socialLinks" data-testid="socialLinks">
+                <a href="https://www.instagram.com/kilo_zamaney/" class="social-icon instagram"><i class="fa fa-instagram"></i></a>
+
+                <a href="https://www.linkedin.com/in/oluwaseun-abiodun-169812344" class="social-icon linkedin"><i class="fa fa-linkedin"></i></a>
+
+                <a href="https://www.github.com/jabbydev" class="social-icon github"><i class="fa fa-github"></i></a>
+            </div>
+            <div id="utc-time" data-testid="currentTimeUTC">Loading UTC time...</div>
+        </div>
+        <!-- <a href="mailto:theonlyseunabiodun@gmail.com" class="contact-btn">Contact Me</a> -->
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
